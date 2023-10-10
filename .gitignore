@@ -1,4 +1,4 @@
-.eslintrc.json
+.vscode
 
 # build output
 dist/
