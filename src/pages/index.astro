@@ -1,16 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import Main from '../components/Main.astro'
+import Header from '../components/Header.astro'
 import Input from '../components/Input'
 ---
 
 <Layout title="Validador de RUT">
-	<div class="h-screen grid content-center">
-		<h1 class="px-10 text-5xl font-extrabold text-center sm:text-6xl md:text-8xl">
-			Bienvenido al validador de RUT
-		</h1>
-		<div class="px-5 my-12">
-			<label class="font-bold text-sm">Ingrese rut</label>
-			<Input client:only/>
-		</div>
-	</div>
+	<Header slot='header' />
+	<Main slot='main' />
 </Layout>

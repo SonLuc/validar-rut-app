@@ -13,12 +13,12 @@ const Input = () => {
 
   return (
     <>
-      <div className="h-12 flex gap-5">
+      <div className="h-14">
         <input 
         value={input}
         onChange={handleChange}
         type="text" 
-        className="h-full w-full rounded-lg ps-3 outline-none" 
+        className="h-full w-full rounded-lg ps-3 outline-none border-2 border-zinc-700 bg-zinc-900 font-semibold shadow-xl" 
         placeholder="12345678-9" />
       </div>
       <div>
