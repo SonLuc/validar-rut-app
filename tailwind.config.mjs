@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans'], // Agregar "System UI" como fuente sans
+        sans: ['Inter', 'sans'],
       },
     },
   },
